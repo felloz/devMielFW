@@ -1,0 +1,5 @@
+npm install bootstrap popper.js vue
+
++ popper.js@1.16.1
++ bootstrap@4.4.1
++ vue@2.6.11

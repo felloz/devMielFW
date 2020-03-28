@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^(.*?)\.(css|js|jpg|jpeg|png|pdf)$ - [L]
+RewriteRule ^(.+)$ index.php?url=$1 [L,QSA]
+
+
+
+# RewriteRule ^([^/]+)/? index.php?url=$1 [L,QSA]
